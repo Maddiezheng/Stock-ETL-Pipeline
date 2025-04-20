@@ -8,6 +8,8 @@ This architecture illustrates how stock data flows from an API source into MinIO
 ## Project Architecture
 ![image](image/flowchart.png)
 
+This architecture illustrates an end-to-end stock trading ETL pipeline where data flows from an API source into MinIO object storage, processed and structured via Apache Spark into Delta Lake tables. Prefect orchestrates the workflow while Soda ensures data quality, all within a Dockerized environment.
+
 ## Features
 * Retrieve intraday stock trading data from Alpha Vantage API
 * Normalize and ingest raw JSON data into Bronze Delta Lake layer
