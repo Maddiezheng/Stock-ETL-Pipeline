@@ -1,0 +1,3 @@
+checks for trade:
+  - row_count > 0
+  - missing_count(symbol) = 0

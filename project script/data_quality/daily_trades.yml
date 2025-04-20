@@ -1,0 +1,9 @@
+checks for daily_trades:
+  - duplicate_count(symbol, trade_date) = 0
+  - missing_count(trade_date) = 0
+  - invalid_count(daily_volume) = 0:
+      valid min: 0
+  - invalid_count(daily_open) = 0:
+      valid min: 0
+  - invalid_count(daily_close) = 0:
+      valid min: 0
