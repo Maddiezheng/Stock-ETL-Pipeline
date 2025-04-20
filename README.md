@@ -6,8 +6,6 @@ This project is an end-to-end ETL pipeline designed to process near real-time st
 This architecture illustrates how stock data flows from an API source into MinIO object storage, gets processed and structured via Apache Spark into Delta Lake tables. Prefect orchestrates the entire workflow while Soda ensures data quality, all within a Dockerized and automated environment.
 
 ## Project Architecture
-![image](https://github.com/user-attachments/assets/431b60d9-d23f-451d-b4b0-b928c457c660)
-
 ![image](image/flowchart.png)
 
 ## Features
